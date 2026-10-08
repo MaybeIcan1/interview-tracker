@@ -1,0 +1,32 @@
+{
+  "imap": {
+    "host": "imap.qq.com",
+    "port": 993,
+    "user": "your_qq_number@qq.com",
+    "authCode": "QQ邮箱 IMAP 授权码（非登录密码）"
+  },
+  "deepseek": {
+    "apiKey": "sk-...",
+    "apiBase": "https://api.deepseek.com/v1",
+    "model": "deepseek-chat"
+  },
+  "pushplus": {
+    "token": "PushPlus token"
+  },
+  "pushChannel": "serverchan",
+  "serverchan": {
+    "sendKey": "SCT_xxx（Server酱 SendKey）"
+  },
+  "wxpusher": {
+    "appToken": "AT_xxx（WxPusher 应用 AppToken）",
+    "uids": ["UID_xxx（你的微信订阅 UID）"]
+  },
+  "keywords": [
+    "面试", "测评", "笔试", "AI面", "面试邀请", "笔面试", "能力测评",
+    "在线测评", "评估", "测试链接", "视频面试", "面试通知", "性格测试"
+  ],
+  "remindDaysBefore": [3, 1],
+  "lookbackDays": 2,
+  "reportDir": "D:\\AIDigest\\output",
+  "pushDailySummary": true
+}
